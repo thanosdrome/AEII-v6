@@ -1,0 +1,804 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+ 
+*
+{
+   margin: 0;
+   padding: 0;
+   font-family: 'Taviraj', serif;
+   scroll-behavior: smooth;
+  
+}
+
+body{
+    background: #ffffff;
+}
+
+nav{
+ display: flex !important;
+ align-items: center;
+ justify-content: space-between;
+ background : #ffffff;
+ padding: 5px 3%;
+ position: sticky;
+ top: 0;
+ z-index: 100;
+ border-radius: 20px;
+}
+.nav-left
+{   display: flex;
+    align-items: center;
+
+}
+.logo{
+   width:200px;
+   padding-top: 2px;
+   padding-right: 45px;
+   margin-right: 45px;
+}
+
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+.nav-user-icon img
+{   width: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+   
+}
+.nav-user-icon i
+{
+  width: 35px;
+  height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.658);
+  background-color: rgba(128, 128, 128, 0.267);
+    font-size: 20px;
+    padding-left: 6px;
+    padding-top:8px;
+}
+.nav-user-icon {
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.search-box
+{position: relative;
+    width: 500px;
+    
+}
+.input
+{
+    position: relative;
+    display: inline-block;
+    font-size: 14px !important;
+    box-sizing: border-box;
+    transition: .5s;
+  
+
+}
+input[type="text"]
+{
+  
+    width: 400px;
+    height: 25px;
+    padding: 14px;
+    padding-left:10px ;
+    border-radius: 25px 0 0 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(238, 238, 238) !important;
+    font-family: 'Taviraj', serif;
+
+}
+input[type="submit"]
+{
+    position: relative;
+    border-radius: 0 25px 25px 0;
+    width: 60px;
+    height: 29px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #004c93;
+    color: #ffffff;
+    left: -5px;
+    
+}
+input[type="submit"]:hover
+{
+    background-color: grey;
+    color: rgb(255, 255, 255);
+   
+}
+.online
+{
+   position: relative;
+}
+.online::after
+{
+  content: '';
+  width: 10px;
+  height: 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: #41db51;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.row 
+{
+    padding: 0 15px;
+    
+    margin-top: 15px;
+  }
+  
+  .p-3 {
+    padding: 2rem!important;
+  }
+  
+  .side-menu-container
+  {  position: sticky;
+    background-color: rgba(196, 196, 196, .35);
+    margin-left: 0;
+    margin-right: 30%;
+    border-radius: 5px;
+    padding: 20px;
+    border-right: 1px solid rgba(0, 0, 0,.50);
+    box-shadow:  3px 2px 2px rgba(0, 0, 0, 0.5);
+    
+  }
+  .side-menu-container ul li{
+    /* padding-top: 15px; */
+    margin-top: 15px;
+    font-weight: 600px;
+  }
+  .side-menu-container ul li a{
+    padding-top: 15px;
+    font-weight: 300;
+    color: rgb(75, 75, 75);
+    padding-left:8px ;
+    font-size: 13px;  
+  }
+  .side-menu-container ul li a img{
+  margin: -8px;
+  padding-right: 15px;
+  }
+  #dropdown
+  {
+    background-color: rgba(128, 128, 128, 0.178);
+    border-radius: 5px;
+    line-height: 30px;
+    padding-left: 5px;
+    
+  }
+  #dropdown li{
+    padding-left: 10px;
+  }
+  #company-list img
+  {
+    width: 30px;
+    padding: 2px;
+    margin-right:6px ;
+  }
+
+  .container
+  {
+    position: relative;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+  }
+  .container .card1
+  {
+    position: relative;  
+  width: 45%;
+  display: flex;
+  margin: 30px 0;
+  border: 2px solid black;
+  padding: 5px;
+
+}
+.container .card1 .image
+{
+  position: relative;
+  padding-top: 5px;
+  width: 100%;
+  
+ 
+  display: flex;
+  justify-content: right;
+}
+.container .card1 .image img
+{
+  width: 80%;
+  
+}
+.container .card1 .content p
+{
+  font-size: 12px;
+}
+.container .card2
+{
+  position: relative;
+  width: 45%;
+  display: flex;
+  margin: 30px 0;
+  border: 2px solid black;
+  padding: 5px;
+ 
+
+}
+.container .card2 .image
+{
+  position: relative;
+  padding-top: 5px;
+  width: 100%;
+  
+ 
+  display: flex;
+  justify-content: left;
+}
+.container .card2 .content
+{
+  text-align: right;
+}
+.container .card2 .image img
+{
+  width: 80%;
+ 
+}
+.container .card2 .content p
+{
+  font-size: 12px;
+}
+.title-heading
+{
+  margin-top: 50px;
+}
+.title-heading img
+{
+  width: 100px;
+  padding-right: 8px;
+}
+.card-crousal
+{
+  position: relative;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 50px;
+  width: 95%;
+
+}
+.content a
+{
+  text-decoration: underline;
+  color: black;
+}
+.content h3 {
+  font-size: 25px;
+  padding: 5px;
+}
+.content strong{
+ font-weight: 700;padding: 10px;
+}
+
+.card{
+  position: relative;
+  width: 20%;
+  display: flex;
+  margin: 30px 0;
+  padding: 2px;
+  margin-right: 50px;
+ 
+ 
+}
+.card-title
+{display: flex;
+  position: relative;
+  background-color: #004c93;
+  justify-content:space-between;
+  align-items: center;
+  height: 50px; 
+}
+.card-title img
+{ position: relative;
+  width: 40px;
+  height: 40px;
+ padding-left: 6px;
+ 
+}
+.card-title h4{
+  position: relative;
+  display: flex;
+  padding-left: 4px;
+  color: #fff;
+}
+
+.card-content
+{
+  padding: 5px;
+ 
+}
+.card-cta
+
+{
+  text-decoration: underline;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom:5px ;
+}
+
+.card-content p
+{
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.event-section
+{
+  position: relative;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 50px;
+   
+}
+.event-img img
+{
+  width: 310px;
+  box-shadow: 35px -16px rgba(128, 128, 128, 0.425);
+  
+}
+.event-text
+{
+  text-align: center;
+  width: 45%;
+}
+.event-text span
+{
+  font-size: 15px;
+  font-weight: 300;
+}
+.event-text p
+{
+  text-align: left;
+  padding-bottom: 50px;
+}
+.event-img
+{
+  width: 300px;
+  background-color: #004c93;
+  margin-right:80px ;
+
+  
+}
+.event-text a
+{
+ border: 1px solid black;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+ 
+}
+
+
+
+
+
+
+
+
+.testimonial-section
+{
+  position: relative;
+    width: 100%;
+    display:flex;
+    justify-content:flex-start;
+    margin-top: 50px;
+    flex-direction: row;
+
+   
+}
+.test-img img
+{
+  width: 300px;
+ 
+  margin-left:80px ;
+}
+.testimonial-text
+{
+  text-align: center;
+ margin-left: 80px;
+ width: 500px;
+}
+.testimonial-text span
+{
+  font-size: 15px;
+  font-weight: 300;
+}
+.testimonial-text p
+{
+  text-align: left;
+ 
+}
+.test-img
+{
+  width: 500px;
+  margin-left:80px ;
+  
+}
+
+.testimonial-text h5{
+  text-align: left;
+}
+
+.testimonial-text h6
+{
+  
+  font-size: 12px;
+  text-align: left;
+}
+.icon{
+text-align: left;
+color: orange;
+}
+
+
+
+/* company profile page----------------------------------------------------------------===page */
+
+.company-info {
+   background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-right: 1px solid rgba(0, 0, 0,.50);
+    box-shadow: 2px 2px 2px 2px  rgba(0, 0, 0, 0.5);
+    
+     height: max-content;
+    
+   
+}
+.company-info-s {  
+    height: max-content;
+}
+.company-discription{
+  display: flex;
+  
+}
+
+.company-img img
+{
+  width: 100%;
+  height: 30px;
+}
+.company-name 
+{
+   display: flex;
+   flex-direction: column;
+  
+ 
+
+}
+.company-name h3
+{ position: relative;
+  font-size:25px;
+ line-height: 20px;
+  padding-left: 9px;
+  padding-top: 6px;
+ 
+ 
+}
+.company-name span
+{ 
+  font-size: 11px;
+  font-weight: 600;
+  padding-left: 15px;
+  color: rgb(11, 107, 145);
+  margin-top: -10px;
+}
+.company-cataloge
+{
+  margin-top: 10px;
+  margin-left: 350px;
+  
+  
+  
+}
+.company-cataloge a
+{ background-color: black;
+  border: 2px solid black;
+  text-decoration: none;color: #fff;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.356);
+  padding: 2px;
+  padding-left: 20px;
+  font-weight: 400;
+  padding-right: 20px;
+}
+.company-cataloge a:hover
+
+{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.651);
+  
+}
+
+.company-details{
+  padding-left: 10px;
+  margin-top: 30px;
+}
+.company-details h4{
+  color: #004c93;
+}
+.company-details img
+{
+ height: 2px;
+ width: 150px;
+  margin-top: -42px;
+}
+.company-details p{
+  font-size: 15px;
+  margin-top: -25px;
+}
+
+.prod-list
+{
+  
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+.product-img img{
+  width: 70%;
+  height: 100%;
+ transform: translateY(-26px);
+ object-fit: cover;
+ display: block;
+ border-radius: 3px;
+ box-shadow: 5px 5px 8px 8px rgba(0, 0, 0, 0.2);
+ 
+}
+.product-crousal
+{ width:200px;
+  padding: 2px;
+  padding-bottom: 10px;
+  margin-right: 40px;
+  margin-bottom:50px ;
+  background-color: rgb(163, 163, 163);
+  box-shadow: 5px 5px 8px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.product-img
+{ display: flex;
+  justify-content: center;
+}
+.product-title
+{
+  font-size: 24px;
+}
+
+
+.product-price
+{ display: flex;
+  padding: 2px;
+  flex-direction: column;
+}
+#discount-per
+{
+  font-size: 10px;
+  color: yellow;
+}
+#price
+{
+  text-decoration: line-through;
+  color: #fff;
+}
+#dis-price
+{
+  color: #fff;
+
+}
+.product-info img{
+  width: 35px;
+  margin-left: -2px;
+  margin-right: 8px;
+}
+.product-seller
+{
+   margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  
+}
+.product-info a{
+  background-color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 6px;
+}
+.product-crousal-cta
+{
+  display: flex;
+  padding-top: 5px;
+}
+.product-info
+{
+  padding: 8px;
+}
+.address{
+ display: block;
+ 
+}
+.address i{
+  padding-right: 4px;
+ font-size: 20px;
+}
+
+.supplier-address{
+  padding-left: 10px;
+  margin-top: 30px;
+
+}
+.supplier-address h4{
+  color: #004c93;
+}
+#contact-line
+{
+ height: 2px;
+ width: 150px;
+  margin-top: -42px;
+}
+.address-details
+{ 
+  display: flex;
+  margin-right: 50px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#company-add p{
+  font-size: 12px;
+  padding-left:30px ;
+  padding-top: 5px;
+  width: 300px;
+}
+.address span{
+  font-size: 14px;
+  
+}
+.address img{
+  height: 20px;
+  padding-right: 8px;
+  margin-top: -4px;
+}
+.floating-form
+{
+  width: 400px;
+  margin-right: 5px;
+  background-color: rgba(196, 196, 196);
+  border-radius: 5px;
+  padding: 8px;
+  box-shadow:  3px 2px 2px rgba(0, 0, 0, 0.5);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.floating-form h6
+{
+  color: #004c93;
+  padding-left: 6px;
+  
+
+}
+.floating-form input
+{   position: relative;
+    width: 90%;
+    outline: 0;
+    border: 1px solid black;
+    color: rgb(0, 0, 0); 
+    background-color: transparent!important; 
+    padding: 10px;
+    border-radius: 2px;
+    cursor: text;
+    font-size: 13px;
+    transition: 0.3s ease;
+    margin-bottom: 20px;
+}
+.input-label
+{
+  display: block;
+  position: absolute;
+  top: 24px;
+  left: 16px;
+  background: rgba(196, 196, 196);
+  font-size: 10px;
+  color: black;
+  padding-left: 3px;
+  padding-right: 3px;
+  transition: 0.3s ease;
+  font-weight: 500;
+  
+}
+.input-label-msg
+{ 
+  display: block;
+  position: absolute;
+  top: 69px;
+  left: 16px;
+  background: rgba(196, 196, 196);
+  font-size: 10px;
+  color: black;
+  padding-left: 3px;
+  padding-right: 3px;
+  transition: 0.3s ease;
+  font-weight: 500;
+  
+}
+.floating-form textarea
+{   position: relative;
+    width: 90%;
+    outline: 0;
+    border: 1px solid black;
+    color: rgb(0, 0, 0); 
+    background-color: transparent!important; 
+    padding: 10px;
+    border-radius: 2px;
+    cursor: text;
+    font-size: 13px;
+    transition: 0.3s ease;
+    margin-bottom: 20px;
+}
+#submit-form{
+  position: relative;
+  background: #000000 !important;
+  color: #fff;
+  padding-bottom: 20px !important;
+  padding-top: 4px !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  width: 100px;
+  margin-left: 140px;
+  
+  
+  
+
+}
+
+/* .floating-form input::placeholder
+{
+  color: transparent;
+}
+.floating-form input::placeholder-shown ~ .input-label{
+  font-size: 13px;
+  top: 35px;
+}
+.floating-form input:focus{
+  border-image: linear-gradient(to right,#000,grey);
+  border-image-slice: 1;
+}
+.floating-form input:focus ~ .input-label{
+  display: block;
+  position: absolute;
+  top: 24px;
+  font-size: 10px;
+  color: black;
+ 
+} */

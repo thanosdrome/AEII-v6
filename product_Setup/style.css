@@ -1,0 +1,138 @@
+body{
+  padding-bottom: 15px !important; 
+}
+#MainSection{
+display: flex;
+width: 100%;
+}
+
+#Inner-Left{
+  width: 35%;
+  height: 600px;
+  margin: 15px;
+  box-shadow: rgb(161, 161, 161) 5px 5px 10px;
+  background-color: #FFF;
+  border-radius: 15px;
+}
+#Inner-Right{
+  width: 65%;
+  margin: 15px;
+  /*box-shadow: rgb(161, 161, 161) 5px 5px 10px;*/
+  background-color: #FFF;
+  border-radius: 15px;
+
+}
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+ 
+.image-gallery {
+  margin: 0 auto;
+  display: table;
+}
+ 
+.primary,
+.thumbnails {
+  display: table-cell;
+}
+ 
+.thumbnails {
+  width: 300px;
+  border: #000 solid 2px;
+}
+a [data-big*="./assets/image4.png"]{
+  border: #000 solid 2px;
+}
+.primary {
+  width: 600px;
+  height: 400px;
+  background-color: #FFF;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+ 
+.thumbnail:hover .thumbnail-image, .selected .thumbnail-image {
+  border: 4px solid #FFF;
+}
+ 
+.thumbnail-image {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 4px solid transparent;
+}
+h1{
+  color: #FFF;
+}
+p{
+  color: #FFF;
+}
+#Inner-Right{
+max-height:fit-content ;
+}
+
+#PriceDiv{
+  display: flex;
+}
+
+#inner-left-bottomc{
+  font-size: 2px;
+}
+
+#inner-left-bottom{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#upl-vid{
+  display: flex;
+  align-items: center;
+  font-size: 2px;
+  border: #000 solid 1px;
+  border-radius: 15px;
+  padding: 3px;
+  width: 40%;
+  margin: 10px;
+}
+#upl-vid h3{
+  font-size: 15px;
+}
+#upl-pdf{
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  padding: 3px;
+  border: #000 solid 2px;
+  width: 40%;
+}
+#upl-pdf h3{
+  font-size: 15px;
+}
+.ProductDescription{
+  margin: 25px;
+ 
+}
+#submit-button{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  background-color: #000;
+  color: #fff;
+  border: #000 solid ;
+  margin: 0px 0px 50px 500px;
+}
+#submit-button button{
+  color: #FFF;
+}
+#other-service{
+  background-color: rgb(201, 201, 201);
+  border-radius: 10px;
+  padding:5px 10px;
+}
