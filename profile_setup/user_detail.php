@@ -35,7 +35,7 @@
 
 	<div class="container-contact100">
 		<div class="wrap-contact100">
-			<form class="contact100-form validate-form">
+			<form class="contact100-form validate-form" action="./business_detail.php">
 				<span class="contact100-form-title">
 					Contact Details
 				</span>

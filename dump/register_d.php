@@ -17,10 +17,7 @@
                      VALUES ('$first_name','$last_name', '" . md5($password) . "', '$email', '$created_at')";
         $result   = mysqli_query($con, $query);
         if ($result) {
-            echo "<div class='form'>
-                  <h3>You are registered successfully.</h3><br/>
-                  <p class='link'>Click here to <a href='login.php'>Login</a></p>
-                  </div>";
+            header("Location: ./profile_setup/user_detail.php");
         } else {
             echo "<div class='form'>
                   <h3>Required fields are missing.</h3><br/>

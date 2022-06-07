@@ -1,4 +1,5 @@
-l<link rel="stylesheet" href="./welcome.css">
+<?php header( "refresh:5;url=../profile_setup/user_detail.php" );?>
+<link rel="stylesheet" href="./welcome.css">
 <div class="popup"> <a href="#" class="close"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
     x="0px" y="0px" width="10px" height="10px" viewBox="215.186 215.671 80.802 80.8"
     enable-background="new 215.186 215.671 80.802 80.8" xml:space="preserve">
@@ -17,7 +18,7 @@ l<link rel="stylesheet" href="./welcome.css">
         </svg>
     </div>
      
-    <div class="bottom-popup"><a class="start" href="#">START</a>
+    <div class="bottom-popup"><a class="start" href="../profile_setup/user_detail.php">START</a>
         <h1>Welcome!</h1>
 
         <p>You've successfully signed into AEII</p>
