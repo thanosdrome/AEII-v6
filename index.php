@@ -64,11 +64,11 @@
 						<div id="dropdown-lvl1" class="panel-collapse collapse">
 							<div class="panel-body">
 								<ul class="nav navbar-nav" id="company-list">
-									<li><a href="#"><img src="img/image-14@2x.png" >Kan Universal</a></li>
-									<li><a href="#"><img src="img/image-14@2x.png" >company</a></li>
-									<li><a href="#"><img src="img/image-14@2x.png" >company</a></li>
-									<li><a href="#"><img src="img/image-14@2x.png" >company</a></li>
-									<li><a href="#"><img src="img/image-14@2x.png" >company</a></li>
+									<li><a href="./companies/kan_universal.php"><img src="img/image-14@2x.png" >Kan Universal</a></li>
+									<li><a href="./companies/arm_electro_trade.php"><img src="img/image-14@2x.png" >ARM Electro Trade</a></li>
+									<li><a href="./companies/autonum_controls.php"><img src="img/image-14@2x.png" >Autonum Controls </a></li>
+									<li><a href="./companies/kanta_jib.php"><img src="img/image-14@2x.png" >Kanta Jib</a></li>
+									<li><a href="./companies/gururaj_component.php"><img src="img/image-14@2x.png" >Gururaj Component</a></li>
 
 									<!-- Dropdown level 2 -->
 									<li class="panel panel-default" id="dropdown">

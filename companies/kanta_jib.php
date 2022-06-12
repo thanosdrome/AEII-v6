@@ -94,9 +94,9 @@
     <div class="w-75 p-2" id="company-profile" >
       <div class="company-info-s" >
     <div class="company-discription">
-        <div class="company-img"><img src="../img/1547442108.jpg"></div>
-        <div class="company-name"> <h3>Kan Universal Private limited</h3>
-        <span>company address</span>
+        <div class="company-img"><img src="../img/kanta-jib-crane-logo-120x120.jpg"></div>
+        <div class="company-name"> <h3>Kanta Jib Crane Private Limited</h3>
+        <span>Naveen Shahdara, Delhi-110032</span>
         </div>
         <div class="company-cataloge"><a href="#">View Catalogue</a></div>
     </div>
@@ -105,9 +105,9 @@
     <div class="company-details">
       <h4>Company Breif</h4>
       <img src="../img/line-7@2x.svg" >
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, in reiciendis, illum consectetur quisquam debitis, eaque fugit quasi minima nostrum consequuntur inventore beatae atque commodi rerum. Nesciunt quas animi rerum tempora perspiciatis et, eos doloribus blanditiis minus est molestias vel deleniti dolores ipsum ab officiis rem pariatur, repellat sunt aliquid?
-        quasi minima nostrum consequuntur inventore beatae atque commodi rerum. Nesciunt quas animi rerum tempora perspiciatis et, eos doloribus blanditiis minus est molestias vel deleniti dolores ipsum ab officiis rem pariatur, repellat sunt aliquid?
-      </p>
+      <p>Located at New Delhi, since our inception we Kanta Jib Cranes are included in the manufacturing of a wide range of camera jib cranes and also in providing various types of photography and equipment on rent services for live telecasting and photography.
+
+Quality is our hallmark and we ensure that our equipment meet international quality standards. In order to ensure quality and durability of our range, we utilize high grade material to manufacture our range of equipment. The jib cranes manufactured  by us can revolve up to unlimited degrees. We are the India's first company that makes the jib crane, which can run on truck.</p>
     </div>
     <div class="company-details">
         <h4>Products</h4>
@@ -250,7 +250,7 @@
         <div class="address-details">
         <div class="address">
             <div class="company-name-add"><h5><i class="fas fa-home"></i>Kan Private Limited</h5></div>
-            <div id="company-add"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perferendis corporis explicabo a doloribus pariatur minima, mollitia fuga nesciunt optio.</p></div>
+            <div id="company-add"><p>1/11740, F - 38, Panchsheel Garden, Naveen Shahdara, Delhi-110032, India</p></div>
             <span><i class="fas fa-phone"></i>
               1234567890</span>
         </div>

@@ -94,9 +94,9 @@
     <div class="w-75 p-2" id="company-profile" >
       <div class="company-info-s" >
     <div class="company-discription">
-        <div class="company-img"><img src="../img/1547442108.jpg"></div>
-        <div class="company-name"> <h3>Kan Universal Private limited</h3>
-        <span>company address</span>
+        <div class="company-img"><img src="../img/autonum-controls-private-limited-logo-120x120.jpg"></div>
+        <div class="company-name"> <h3>Autonum Controls Private Limited</h3>
+        <span> Dahisar East, Mumbai-400068, Maharashtra</span>
         </div>
         <div class="company-cataloge"><a href="#">View Catalogue</a></div>
     </div>
@@ -105,9 +105,7 @@
     <div class="company-details">
       <h4>Company Breif</h4>
       <img src="../img/line-7@2x.svg" >
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, in reiciendis, illum consectetur quisquam debitis, eaque fugit quasi minima nostrum consequuntur inventore beatae atque commodi rerum. Nesciunt quas animi rerum tempora perspiciatis et, eos doloribus blanditiis minus est molestias vel deleniti dolores ipsum ab officiis rem pariatur, repellat sunt aliquid?
-        quasi minima nostrum consequuntur inventore beatae atque commodi rerum. Nesciunt quas animi rerum tempora perspiciatis et, eos doloribus blanditiis minus est molestias vel deleniti dolores ipsum ab officiis rem pariatur, repellat sunt aliquid?
-      </p>
+      <p>Established in the year 1995, we, Autonum Controls Private Limited, are one of the ISO 9001:2008 certified organizations in the market engaged in providing Consulting and Engineering Services. We offer excellent repair services for PLC Systems, AC-DC Drives, DCS Systems, Vibration Monitoring Systems and CNC Systems. Moreover, we offer services like Bagging Systems, Turbine & Generators, Boiler Management Systems, Communication Systems and Material Handling Equipment. We are also known for efficient execution of automation projects and are proficient in providing maintenance, servicing and repairing of CNC & Process Control Instruments. Our success lies in repairing cards of ABB make Symphony-Harmony & Advent DCS system cards, Forbes Marshal make DCS, Siemens DCS, Foxboro DCS Systems, Yokogawa DCS, Triconex and Siemens & Fanuc CNC Controls among others.</p>
     </div>
     <div class="company-details">
         <h4>Products</h4>
@@ -249,8 +247,8 @@
         <h5>Reach Us</h5>
         <div class="address-details">
         <div class="address">
-            <div class="company-name-add"><h5><i class="fas fa-home"></i>Kan Private Limited</h5></div>
-            <div id="company-add"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perferendis corporis explicabo a doloribus pariatur minima, mollitia fuga nesciunt optio.</p></div>
+            <div class="company-name-add"><h5><i class="fas fa-home"></i>Autonum Controls Private Limited</h5></div>
+            <div id="company-add"><p>No. 109/108,/110/209Sagar Industrial Estate Prabhat Industrial Complex, W. E. Highway, Dahisar East, Mumbai-400068, Maharashtra, India</p></div>
             <span><i class="fas fa-phone"></i>
               1234567890</span>
         </div>

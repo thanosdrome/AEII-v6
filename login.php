@@ -53,7 +53,7 @@
 	</div>
 
 	<div class="right">
-		<form action="" method="POST">
+		<form action="./index.php" method="POST">
 		<h2 >LOGIN   </h2>
 		<H3> Free Registration /Sign In </H3>
 		<p>Don't have an account? <a href="register.php">Create Your Account</a> it takes less than a minute</p>

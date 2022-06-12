@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   <link rel="stylesheet" href="../css/footer_css.css"> 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFE₹gZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
@@ -33,7 +33,7 @@
     </div>
     <div class="nav-right">
       <div class="nav-user-icon ">
-        <a href="./login.html"><i class="fas fa-sign-in-alt"></i></a>
+        <a href="../login.php"><i class="fas fa-sign-in-alt"></i></a>
       </div>
       <div class="nav-user-icon"><img src="../img/setting.png" /></div>
     </div>
@@ -96,7 +96,7 @@
     <div class="company-discription">
         <div class="company-img"><img src="../img/1547442108.jpg"></div>
         <div class="company-name"> <h3>Kan Universal Private limited</h3>
-        <span>company address</span>
+        <span>B-3, 4th Floor, Nimri Commercial Complex Ashok Vihar New Delhi - 110052, India</span>
         </div>
         <div class="company-cataloge"><a href="#">View Catalogue</a></div>
     </div>
@@ -105,9 +105,7 @@
     <div class="company-details">
       <h4>Company Breif</h4>
       <img src="../img/line-7@2x.svg" >
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, in reiciendis, illum consectetur quisquam debitis, eaque fugit quasi minima nostrum consequuntur inventore beatae atque commodi rerum. Nesciunt quas animi rerum tempora perspiciatis et, eos doloribus blanditiis minus est molestias vel deleniti dolores ipsum ab officiis rem pariatur, repellat sunt aliquid?
-        quasi minima nostrum consequuntur inventore beatae atque commodi rerum. Nesciunt quas animi rerum tempora perspiciatis et, eos doloribus blanditiis minus est molestias vel deleniti dolores ipsum ab officiis rem pariatur, repellat sunt aliquid?
-      </p>
+      <p>Incepted in the year 2011, at Chandni Chowk, (Delhi), we Kan Universal Private Limited are immersed in manufacturing, importing, and exporting an elite array of various Electronic Products. In our offered range we offer products such as LED Display Module, Full Color LED Display,LED Video wall,LED Screen, LED Control Cards, LED Power Supply etc. Our offered products are acknowledged for longer service life, excellent performance, easy to use, low maintenance and lightweight. Furthermore, these products are highly in demand for some incomparable attributes such as low power consumption, compact size, durability, and reliability. All these products are obtainable in varied stipulations and models to meet the precise application demands at patron’s end. Our vendors make use of the superior-grade material in the fabrication of these products as per set industry norms and guidelines. These products are subjected to stern quality analysis on a sample basis on pre-defined parameters before these are being delivered to the patron’s end. Our professionals work hard towards offering exceptional products to the patrons. We also specialize in modifying our whole range as per the stipulations were given by our patrons. In addition to this, with our wide distribution network, we are able to deliver our products to each and every corner of the country.</p>
     </div>
     <div class="company-details">
         <h4>Products</h4>
@@ -116,52 +114,74 @@
     <div class="prod-list slider">
         <div class="product-crousal">
            <div class="product-img" >
-             <img src="../img/attachment_64812874.png">        
+             <img src="../img/led-video-wall-500x500.jpeg">        
            </div>
            <div class="product-info">
-             <h1 class="product-title">Product name</h1>
+             <h1 class="product-title">Full Color Fixed LED Video Wall</h1>
              <div class="product-price">
               <span id="discount-per">25% off </span>
-              <span id="price">Rp 1,500 </span>
-              <span id="dis-price">$1,100 </span>
+              <span id="price">₹ 16,000 </span>
+              <span id="dis-price">₹11,000 </span>
              </div>
-             <p class="product-seller">company name</p>
+             <p class="product-seller">Kan Universal</p>
              <div class="product-crousal-cta">
                  <img src="../img/setting.png" ><a href="#" >Contact Seller</a></div>
            </div>
       </div>
+
+      <div class="product-crousal">
+    <div class="product-img" >
+      <img src="../img/basil-p3-indoor-full-color-led-module-1000x1000.webp">        
+    </div>
+    <div class="product-info">
+      <h1 class="product-title">Basil P3 Indoor</h1>
+      <div class="product-price">
+       <span id="discount-per">25% off </span>
+       <span id="price">₹ 2,000 </span>
+       <span id="dis-price">₹1,500 </span>
+      </div>
+      <p class="product-seller">Kan Universal</p>
+      <div class="product-crousal-cta">
+          <img src="../img/setting.png" ><a href="#" >Contact Seller</a></div>
+    </div>
+  </div>
+
       <div class="product-crousal">
         <div class="product-img" >
-          <img src="../img/attachment_64812874.png">        
+          <img src="../img/video-display-function-van-and-full-color-led-mobile-advertising-van-for-sale-500x500.jpg">        
         </div>
         <div class="product-info">
-          <h1 class="product-title">Product name</h1>
+          <h1 class="product-title">QIANGLI Video Display</h1>
           <div class="product-price">
            <span id="discount-per">25% off </span>
-           <span id="price">Rp 1,500 </span>
-           <span id="dis-price">$1,100 </span>
+           <span id="price">₹ 4,500 </span>
+           <span id="dis-price">₹3,375 </span>
           </div>
-          <p class="product-seller">company name</p>
+          <p class="product-seller">Kan Universal</p>
           <div class="product-crousal-cta">
               <img src="../img/setting.png" ><a href="#" >Contact Seller</a></div>
         </div>
    </div>
+
+
    <div class="product-crousal">
     <div class="product-img" >
-      <img src="../img/attachment_64812874.png">        
+      <img src="../img/led-van-500x500.jpg">        
     </div>
     <div class="product-info">
-      <h1 class="product-title">Product name</h1>
+      <h1 class="product-title">Led Video Display Van</h1>
       <div class="product-price">
        <span id="discount-per">25% off </span>
-       <span id="price">Rp 1,500 </span>
-       <span id="dis-price">$1,100 </span>
+       <span id="price">₹ 4,000 </span>
+       <span id="dis-price">₹1,000 </span>
       </div>
-      <p class="product-seller">company name</p>
+      <p class="product-seller">Kan Universal</p>
       <div class="product-crousal-cta">
           <img src="../img/setting.png" ><a href="#" >Contact Seller</a></div>
     </div>
   </div>
+
+
   <div class="product-crousal">
     <div class="product-img" >
       <img src="../img/attachment_64812874.png">        
@@ -170,78 +190,17 @@
       <h1 class="product-title">Product name</h1>
       <div class="product-price">
        <span id="discount-per">25% off </span>
-       <span id="price">Rp 1,500 </span>
-       <span id="dis-price">$1,100 </span>
+       <span id="price">₹ 1,500 </span>
+       <span id="dis-price">₹1,100 </span>
       </div>
-      <p class="product-seller">company name</p>
+      <p class="product-seller">Kan Universal</p>
       <div class="product-crousal-cta">
           <img src="../img/setting.png" ><a href="#" >Contact Seller</a></div>
     </div>
   </div>
-  <div class="product-crousal">
-    <div class="product-img" >
-      <img src="../img/attachment_64812874.png">        
-    </div>
-    <div class="product-info">
-      <h1 class="product-title">Product name</h1>
-      <div class="product-price">
-       <span id="discount-per">25% off </span>
-       <span id="price">Rp 1,500 </span>
-       <span id="dis-price">$1,100 </span>
-      </div>
-      <p class="product-seller">company name</p>
-      <div class="product-crousal-cta">
-          <img src="../img/setting.png" ><a href="#" >Contact Seller</a></div>
-    </div>
-  </div>
-  <div class="product-crousal">
-    <div class="product-img" >
-      <img src="../img/attachment_64812874.png">        
-    </div>
-    <div class="product-info">
-      <h1 class="product-title">Product name</h1>
-      <div class="product-price">
-       <span id="discount-per">25% off </span>
-       <span id="price">Rp 1,500 </span>
-       <span id="dis-price">$1,100 </span>
-      </div>
-      <p class="product-seller">company name</p>
-      <div class="product-crousal-cta">
-          <img src="../img/setting.png" ><a href="#" >Contact Seller</a></div>
-    </div>
-  </div>
-  <div class="product-crousal">
-    <div class="product-img" >
-      <img src="../img/attachment_64812874.png">        
-    </div>
-    <div class="product-info">
-      <h1 class="product-title">Product name</h1>
-      <div class="product-price">
-       <span id="discount-per">25% off </span>
-       <span id="price">Rp 1,500 </span>
-       <span id="dis-price">$1,100 </span>
-      </div>
-      <p class="product-seller">company name</p>
-      <div class="product-crousal-cta">
-          <img src="../img/setting.png" ><a href="#" >Contact Seller</a></div>
-    </div>
-  </div>
-  <div class="product-crousal">
-    <div class="product-img" >
-      <img src="../img/attachment_64812874.png">        
-    </div>
-    <div class="product-info">
-      <h1 class="product-title">Product name</h1>
-      <div class="product-price">
-       <span id="discount-per">25% off </span>
-       <span id="price">Rp 1,500 </span>
-       <span id="dis-price">$1,100 </span>
-      </div>
-      <p class="product-seller">company name</p>
-      <div class="product-crousal-cta">
-      <img src="../img/setting.png" ><a href="#" >Contact Seller</a></div>
-    </div>
-  </div>
+
+ 
+
     </div>
     <div class="supplier-address">
         <h4>Get in touch with us</h4>
@@ -250,7 +209,7 @@
         <div class="address-details">
         <div class="address">
             <div class="company-name-add"><h5><i class="fas fa-home"></i>Kan Private Limited</h5></div>
-            <div id="company-add"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perferendis corporis explicabo a doloribus pariatur minima, mollitia fuga nesciunt optio.</p></div>
+            <div id="company-add"><p>Kan Universal Private Limited is the well-known manufacturer, importer and exporter of LED Videowall,LED Screen, LED Display Screen, etc. Our offered range is highly praised for high functionality and reliability.</p></div>
             <span><i class="fas fa-phone"></i>
               1234567890</span>
         </div>

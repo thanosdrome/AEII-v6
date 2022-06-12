@@ -94,9 +94,9 @@
     <div class="w-75 p-2" id="company-profile" >
       <div class="company-info-s" >
     <div class="company-discription">
-        <div class="company-img"><img src="../img/1547442108.jpg"></div>
-        <div class="company-name"> <h3>Kan Universal Private limited</h3>
-        <span>company address</span>
+        <div class="company-img"><img src=""></div>
+        <div class="company-name"> <h3>Gururaj Component</h3>
+        <span> Lamington Road, Mumbai-400007, Maharashtra, India</span>
         </div>
         <div class="company-cataloge"><a href="#">View Catalogue</a></div>
     </div>
@@ -105,9 +105,7 @@
     <div class="company-details">
       <h4>Company Breif</h4>
       <img src="../img/line-7@2x.svg" >
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, in reiciendis, illum consectetur quisquam debitis, eaque fugit quasi minima nostrum consequuntur inventore beatae atque commodi rerum. Nesciunt quas animi rerum tempora perspiciatis et, eos doloribus blanditiis minus est molestias vel deleniti dolores ipsum ab officiis rem pariatur, repellat sunt aliquid?
-        quasi minima nostrum consequuntur inventore beatae atque commodi rerum. Nesciunt quas animi rerum tempora perspiciatis et, eos doloribus blanditiis minus est molestias vel deleniti dolores ipsum ab officiis rem pariatur, repellat sunt aliquid?
-      </p>
+      <p>Established in the year 2009, Mumbai, Maharashtra, we “Gururaj Component” are a Sole Proprietorship based firm, engaged as the foremost Manufacturer of Integrated Circuit,PIC Microcontroller, etc. Our products are high in demand due to their premium quality and affordable prices. Furthermore, we ensure to timely deliver these products to our clients, through this we have gained a huge clients base in the market.</p>
     </div>
     <div class="company-details">
         <h4>Products</h4>
@@ -249,8 +247,8 @@
         <h5>Reach Us</h5>
         <div class="address-details">
         <div class="address">
-            <div class="company-name-add"><h5><i class="fas fa-home"></i>Kan Private Limited</h5></div>
-            <div id="company-add"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perferendis corporis explicabo a doloribus pariatur minima, mollitia fuga nesciunt optio.</p></div>
+            <div class="company-name-add"><h5><i class="fas fa-home"></i>Gururaj Component</h5></div>
+            <div id="company-add"><p>205, 2nd Floor, Rajdeep Building, Tara Temple Lane, Near Lamington Police Station, Lamington Road, Mumbai-400007, Maharashtra, India</p></div>
             <span><i class="fas fa-phone"></i>
               1234567890</span>
         </div>

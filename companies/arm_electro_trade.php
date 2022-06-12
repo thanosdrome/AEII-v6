@@ -94,9 +94,9 @@
     <div class="w-75 p-2" id="company-profile" >
       <div class="company-info-s" >
     <div class="company-discription">
-        <div class="company-img"><img src="../img/1547442108.jpg"></div>
-        <div class="company-name"> <h3>Kan Universal Private limited</h3>
-        <span>company address</span>
+        <div class="company-img"><img src="../img/myprofile-jpeg-90x90.jpg"></div>
+        <div class="company-name"> <h3>Arm Electro Trade</h3>
+        <span>Mumbai - 400007, Maharashtra, India</span>
         </div>
         <div class="company-cataloge"><a href="#">View Catalogue</a></div>
     </div>
@@ -105,9 +105,9 @@
     <div class="company-details">
       <h4>Company Breif</h4>
       <img src="../img/line-7@2x.svg" >
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, in reiciendis, illum consectetur quisquam debitis, eaque fugit quasi minima nostrum consequuntur inventore beatae atque commodi rerum. Nesciunt quas animi rerum tempora perspiciatis et, eos doloribus blanditiis minus est molestias vel deleniti dolores ipsum ab officiis rem pariatur, repellat sunt aliquid?
-        quasi minima nostrum consequuntur inventore beatae atque commodi rerum. Nesciunt quas animi rerum tempora perspiciatis et, eos doloribus blanditiis minus est molestias vel deleniti dolores ipsum ab officiis rem pariatur, repellat sunt aliquid?
-      </p>
+      <p>We " Arm Electro Trade " are Sole Proprietorship based firm, dealing in a wide range of LED Modules, Power Supplies, Pixel LED Lights and much more. All our products are getting widely acclaimed among the large clientele for their exclusive designs, superior quality, and reliability.
+
+Apart from this, our ability to maintain timelines as well as quality in the assortment, providing cost effective solutions and assurance to make timely shipment of the orders placed by customers have assisted us positioning our name in the list of top-notch companies of the industry. We are importing our products from Hongkong and China.</p>
     </div>
     <div class="company-details">
         <h4>Products</h4>
@@ -250,7 +250,9 @@
         <div class="address-details">
         <div class="address">
             <div class="company-name-add"><h5><i class="fas fa-home"></i>Kan Private Limited</h5></div>
-            <div id="company-add"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perferendis corporis explicabo a doloribus pariatur minima, mollitia fuga nesciunt optio.</p></div>
+            <div id="company-add"><p>Shop No. 6B, 1st Floor, Kotwal Mansion
+Grant Road
+Mumbai - 400007, Maharashtra, India</p></div>
             <span><i class="fas fa-phone"></i>
               1234567890</span>
         </div>
